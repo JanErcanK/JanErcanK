@@ -8,6 +8,6 @@ Software Project Manager & Developer with a focus on bridging technology and man
 - **Methods:** Agile Software Development, Scrum, Project Planning
 
 ### 📌 About Me
-- 🎓 M.Sc. graduate & Student Assistant in Software Project Management @ RWTH Aachen
-- 💡 Interested in IT-Consulting, Software Engineering & Product Management
-- 📫 How to reach me: [LinkedIn](DEIN-LINKEDIN-PROFIL-LINK)
+- 🎓 M.Sc. graduate & Student 
+- 💡 Interested in IT Consulting, Software Engineering & Product Management
+- 📫 How to reach me: @jan.kilic@rwth-aachen.de or https://www.linkedin.com/in/jan-kilic/
