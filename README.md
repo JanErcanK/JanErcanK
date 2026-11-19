@@ -2,15 +2,15 @@
 
 Informatik (M.Sc.) an der RWTH Aachen · Softwareentwicklung und Softwareprojektmanagement. Ich suche eine Vollzeitstelle und interessiere mich für Software Engineering, IT-Consulting und Produktmanagement.
 
-## FitFlow · die Fitness-App Kaizen
+## Kaizen · Fitness-App mit Flutter
 
-Mit Kaizen plane ich mein Training, protokolliere Mahlzeiten und verfolge meinen Fortschritt. **FitFlow** war der ursprüngliche Projektname. Das Tagebuch speichert Einträge mit Hive auf dem Gerät und funktioniert auch im Fitnessstudio ohne Empfang. Für gemeinsam genutzte Funktionen wie das Teilen eines Laufs kommt Firebase zum Einsatz.
+Mit Kaizen plane ich mein Training, protokolliere Mahlzeiten und verfolge meinen Fortschritt. Das Tagebuch speichert Einträge mit Hive auf dem Gerät und funktioniert auch im Fitnessstudio ohne Empfang. Für gemeinsam genutzte Funktionen wie das Teilen eines Laufs kommt Firebase zum Einsatz.
 
 | Tagesübersicht | Mahlzeit prüfen | Fortschritt |
 | --- | --- | --- |
 | <img src="projects/kaizen/images/home.png" width="210" alt="Kaizen zeigt Tageswerte und eine interaktive Körperansicht"> | <img src="projects/kaizen/images/chat.png" width="210" alt="Ein Mahlzeitenvorschlag wartet auf Bestätigung"> | <img src="projects/kaizen/images/profile.png" width="210" alt="Kalorien, Makronährstoffe und Kalender im Profil"> |
 
-Wie wird aus einem KI-Vorschlag ein Tagebucheintrag, und warum zählt eine Mahlzeit auch nach zweimaligem Tippen nur einmal? [Architektur und Designentscheidungen](projects/kaizen/README.md) · [Zum öffentlichen Kaizen-Projekt](https://github.com/JanErcanK/Kaizen)
+Wie wird aus einem KI-Vorschlag ein Tagebucheintrag, und warum zählt eine Mahlzeit auch nach zweimaligem Tippen nur einmal? [Architektur und Designentscheidungen](projects/kaizen/README.md) · [Quellcode und Startanleitung](https://github.com/JanErcanK/Kaizen) · [Automatische Tests](https://github.com/JanErcanK/Kaizen/actions/workflows/verify.yml)
 
 ## Weitere Projekte
 

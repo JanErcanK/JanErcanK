@@ -1,4 +1,4 @@
-# FitFlow · die Fitness-App Kaizen
+# Kaizen · Fitness-App mit Flutter
 
 Kaizen bündelt Trainingsplanung, Mahlzeiten und Fortschritt in einer Flutter-App. Der ursprüngliche Projektname ist **FitFlow**. Wer nach dem Training sein Essen einträgt, kann das Tagebuch ohne Netz verwenden. Erst Funktionen wie die KI-Schätzung einer Mahlzeit oder das Teilen eines Laufs benötigen einen externen Dienst.
 
@@ -29,10 +29,10 @@ Plattformspezifischer Code bleibt dort nötig, wo das Betriebssystem beteiligt i
 3. Der Store schreibt die Portionen und einen Vermerk mit dieser ID in einem gemeinsamen Hive-Aufruf. Ein zweiter Tap während des Schreibens wird abgefangen. Nach einem Neustart erkennt die App die bereits gespeicherte Mahlzeit am Vermerk.
 4. Erst nach dem Schreiben benachrichtigt der Store die Oberfläche. Der Tageswert enthält die bestätigten Portionen genau einmal.
 
-Der zugehörige Dart-Test startet zwei Bestätigungen für dieselbe Nachricht gleichzeitig. Anschließend öffnet er die Datenbank erneut und bestätigt den Vorschlag an einem anderen Datum. Er prüft, dass die zwei Zutaten am ursprünglichen Tag stehen, ihre Nährwerte stimmen und am neuen Tag kein Eintrag entsteht.
+Der zugehörige Dart-Test startet zwei Bestätigungen für dieselbe Nachricht gleichzeitig. Anschließend öffnet er die Datenbank erneut und bestätigt den Vorschlag an einem anderen Datum. Er prüft, dass die zwei Zutaten am ursprünglichen Tag stehen, ihre Nährwerte stimmen und am neuen Tag kein Eintrag entsteht. [Test im Quellcode](https://github.com/JanErcanK/Kaizen/blob/main/test/ai_chat_test.dart)
 
 ## Eine Grenze der aktuellen Architektur
 
 Der zentrale `ProgressStore` macht den Schreibpfad von der Oberfläche bis zur Datenbank leicht nachvollziehbar. Inzwischen verwaltet er auch Training, Ernährung und Einstellungen. Änderungen an einer Domäne berühren dadurch dieselbe Klasse. Ein sinnvoller nächster Schnitt wäre eine eigene Schnittstelle für das Ernährungstagebuch. Der Test für die doppelte Bestätigung beschreibt das Verhalten, das ein solcher Umbau erhalten muss.
 
-[Datenschutzerklärung der App](https://janercank.github.io/kaizen-privacy_policy/) · [Zurück zum Profil](../../README.md)
+[Quellcode und Startanleitung](https://github.com/JanErcanK/Kaizen) · [Automatische Tests](https://github.com/JanErcanK/Kaizen/actions/workflows/verify.yml) · [Datenschutzerklärung der App](https://janercank.github.io/kaizen-privacy_policy/) · [Zurück zum Profil](../../README.md)
